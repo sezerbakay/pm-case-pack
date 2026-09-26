@@ -19,7 +19,7 @@ Tick each item before you reply to the email that sent you the brief.
 
 ## What I send
 
-- [ ] The one-pager, as a PDF or a link to a document.
+- [ ] The one-pager, as a PDF.
 - [ ] My notebook as an .ipynb file, with all cells run so the outputs are in it.
 - [ ] My AI conversations, if I used AI, as share links or pasted text. A partial record is fine.
 - [ ] Everything above in one reply to the email that sent me the brief, before the deadline in it.

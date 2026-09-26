@@ -6,7 +6,7 @@ You are joining Ustahub as a product manager, in the squad that owns the Small R
 
 ## The task
 
-Deniz, a teammate in the squad, used an AI assistant to draft an analysis of a problem in Small Renovation and a recommendation. It is in `memo.md`, and in the template notebook. Review it critically against the data, then write the squad lead a corrected recommendation that fits on one page.
+Deniz, a teammate in the squad, used an AI assistant to draft an analysis of a problem in Small Renovation and a recommendation. It is in the template notebook. Review it critically against the data, then write the squad lead a corrected recommendation that fits on one page.
 
 The memo may contain errors. Treat each claim in it as something to check, not something to accept. Where the memo is right, say so. Where it is wrong, say what is true instead and how you know.
 
@@ -14,7 +14,7 @@ The memo may contain errors. Treat each claim in it as something to check, not s
 
 Plan on 90 to 120 minutes of work. A careful page on the questions that matter most is worth more than a long document that covers everything. The deadline is in the email that sent you this brief.
 
-A live session of 60 to 75 minutes follows. You walk us through your findings without slides, we work through a short SQL question together with AI allowed and your screen shared, and we talk about how you used AI. There is nothing else to prepare for it.
+A live session of 60 minutes follows. You walk us through your findings without slides, we work through a short SQL question together with AI allowed and your screen shared, and we talk about how you used AI. There is nothing else to prepare for it.
 
 ## Using AI
 
@@ -22,15 +22,13 @@ Use any AI tools you like, as much as you like. We do not require any particular
 
 ## What you receive
 
-The email that sent you this brief carries each of these, or links to it.
+The email that sent you this brief also carries a link to the template notebook. The notebook holds everything else you need, each in its own section:
 
-- This brief, and `submission-checklist.md`, a list to tick before you send.
-- `memo.md`, the draft you are reviewing.
-- `schema.md`, the schema sheet: what each of the seven tables holds and what its columns mean.
-- A link to the template notebook.
-- The data: seven CSV files and one DuckDB database holding the same tables. The notebook loads the database for you.
-
-The template notebook also holds this brief, the memo, the schema sheet and the checklist, each in its own section, so you can work from the notebook alone.
+- this brief;
+- the memo, the draft you are reviewing;
+- the schema sheet: what each of the seven tables holds and what its columns mean;
+- the cells that load the data, seven tables in one DuckDB database;
+- the submission checklist, a list to tick before you send.
 
 ## Working in the template notebook
 
@@ -63,7 +61,7 @@ One page, with these five sections:
 
 Reply to the email that sent you this brief, before the deadline in it, with:
 
-- The one-pager, as a PDF or a link to a document.
+- The one-pager, as a PDF.
 - Your notebook, as a file. In Colab choose File, then Download, then Download .ipynb. Run all the cells once before you download, so the outputs are in the file.
 - The AI conversations you used, as share links or as pasted text. Either is fine, and so is a partial record. Colab's Gemini panel does not save its conversation into the notebook and does not keep it for you, so if you use it, copy the exchanges you rely on as you go.
 
