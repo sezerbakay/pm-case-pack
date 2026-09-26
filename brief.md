@@ -36,7 +36,7 @@ The template is a Google Colab notebook, shared with you read-only.
 
 1. Open the link from the email and sign in with a Google account of your own.
 2. Choose File, then Save a copy in Drive. Your copy lives in your own Drive, and we see it only when you send it to us.
-3. In your copy, choose Runtime, then Run all. The cells download the database, open a connection called `con`, and list each table with its row count. This takes under a minute.
+3. In your copy, connect to a runtime, then Run all. The cells download the database, open a connection called `con`, and list each table with its row count. This takes under a minute.
 4. Add your own cells in the section called Your work. Query with `con.sql("SELECT ...")`, and add `.df()` to see the result as a table.
 
 If Colab restarts your session, run all the cells again. Your cells and their outputs stay in your copy.
