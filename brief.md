@@ -6,7 +6,7 @@ You are joining Ustahub as a product manager, in the squad that owns the Small R
 
 ## The task
 
-Deniz, a teammate in the squad, used an AI assistant to draft an analysis of a problem in Small Renovation and a recommendation. It is in `memo.md`. Review it critically against the data, then write the squad lead a corrected recommendation that fits on one page.
+Deniz, a teammate in the squad, used an AI assistant to draft an analysis of a problem in Small Renovation and a recommendation. It is in `memo.md`, and in the template notebook. Review it critically against the data, then write the squad lead a corrected recommendation that fits on one page.
 
 The memo may contain errors. Treat each claim in it as something to check, not something to accept. Where the memo is right, say so. Where it is wrong, say what is true instead and how you know.
 
@@ -30,6 +30,8 @@ The email that sent you this brief carries each of these, or links to it.
 - A link to the template notebook.
 - The data: seven CSV files and one DuckDB database holding the same tables. The notebook loads the database for you.
 
+The template notebook also holds this brief, the memo, the schema sheet and the checklist, each in its own section, so you can work from the notebook alone.
+
 ## Working in the template notebook
 
 The template is a Google Colab notebook, shared with you read-only.
@@ -37,7 +39,7 @@ The template is a Google Colab notebook, shared with you read-only.
 1. Open the link from the email and sign in with a Google account of your own.
 2. Choose File, then Save a copy in Drive. Your copy lives in your own Drive, and we see it only when you send it to us.
 3. In your copy, choose Runtime, then Run all. The cells download the database, open a connection called `con`, and list each table with its row count. This takes under a minute.
-4. Add your own cells below the last one. Query with `con.sql("SELECT ...")`, and add `.df()` to see the result as a table.
+4. Add your own cells in the section called Your work. Query with `con.sql("SELECT ...")`, and add `.df()` to see the result as a table.
 
 If Colab restarts your session, run all the cells again. Your cells and their outputs stay in your copy.
 
