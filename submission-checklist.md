@@ -5,7 +5,7 @@ Tick each item before you reply to the email that sent you the brief.
 ## Before you start
 
 - [ ] I have read the brief, the memo and the schema sheet.
-- [ ] I have saved my own copy of the template notebook in my Drive, or I have asked for the offline pack.
+- [ ] I have saved my own copy of the case notebook in my Drive, or I have asked for the offline pack.
 - [ ] I have run all the notebook's cells, and it listed all seven tables with their row counts.
 
 ## The one-pager
@@ -13,7 +13,7 @@ Tick each item before you reply to the email that sent you the brief.
 - [ ] It fits on one page.
 - [ ] A section: What you agree with in the memo.
 - [ ] A section: What you corrected, and how you know.
-- [ ] A section: Your recommendation.
+- [ ] A section: Your recommendation: what you would do now, what you would not do yet, and why.
 - [ ] A section: Assumptions and open questions.
 - [ ] A section: What you would do next with one week.
 
@@ -21,5 +21,5 @@ Tick each item before you reply to the email that sent you the brief.
 
 - [ ] The one-pager, as a PDF.
 - [ ] My notebook as an .ipynb file, with all cells run so the outputs are in it.
-- [ ] My AI conversations, if I used AI, as share links or pasted text. A partial record is fine.
+- [ ] The AI conversation or conversations that materially influenced my work, if I used AI, as share links, exported text or pasted transcript. What I share is representative of how I used AI for the case.
 - [ ] Everything above in one reply to the email that sent me the brief, before the deadline in it.
